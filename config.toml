@@ -1,0 +1,71 @@
+baseURL = "http://bettercallsaghul.com"
+languageCode = "en"
+title = "Better Call Saghul"
+theme = "coder"
+
+[params]
+    langseparator = "|"
+
+    keywords = "developer,personal,opensource,webrtc"
+    avatarurl = "images/avatar.jpg"
+
+    footercontent = "s@saghul.net"
+
+    hideCredits = true
+    hideCopyright = false
+
+[languages]
+    [languages.en]
+        languagename = "EN"
+
+        [languages.en.params]
+            author = "Saúl Ibarra Corretgé"
+            info = "Real Time Communications Expert"
+            description = "saghul's personal website."
+
+        [languages.en.menu]
+
+        [[languages.en.menu.main]]
+            name = "Blog"
+            weight = 1
+            url  = "http://code.saghul.net"
+
+        [[languages.en.menu.main]]
+            name = "About"
+            weight = 2
+            url = "/about/"
+
+    [languages.es]
+        languagename = "ES"
+
+        [languages.es.params]
+            author = "Saúl Ibarra Corretgé"
+            info = "Experto en COmunicaiones en Tiempo Real"
+            description = "Web personal de saghul."
+
+        [languages.es.menu]
+
+        [[languages.es.menu.main]]
+            name = "Blog"
+            weight = 1
+            url  = "http://saghul.net"
+
+        [[languages.es.menu.main]]
+            name = "Acerca de"
+            weight = 2
+            url = "/es/about/"
+
+# Social links
+[[params.social]]
+    name = "GitHub"
+    weight = 1
+    url = "https://github.com/saghul"
+[[params.social]]
+    name = "Twitter"
+    weight = 2
+    url = "https://twitter.com/saghul"
+[[params.social]]
+    name = "LinkedIn"
+    weight = 3
+    url = "https://www.linkedin.com/in/saghul/"
+
