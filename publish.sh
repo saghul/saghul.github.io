@@ -27,6 +27,9 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
+echo "Restoring CNAME file"
+cp CNAME public/
+
 echo "Updating master branch"
 cd public && git add --all && git commit -m "Update"
 
