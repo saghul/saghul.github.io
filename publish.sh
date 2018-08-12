@@ -1,8 +1,8 @@
 #!/bin/sh
 
-if [[ $(git symbolic-ref --short HEAD) -ne "content" ]]
+if [[ $(git symbolic-ref --short HEAD) -ne "src" ]]
 then
-    echo "Incorrent branch, you must be in the 'content' branch."
+    echo "Incorrent branch, you must be in the 'src' branch."
     exit 1;
 fi
 
@@ -18,7 +18,7 @@ mkdir public
 git worktree prune
 rm -rf .git/worktrees/public/
 
-echo "Checking out gh-pages branch into public"
+echo "Checking out master branch into public"
 git worktree add -B master public origin/master
 
 echo "Removing existing files"
@@ -27,6 +27,8 @@ rm -rf public/*
 echo "Generating site"
 hugo
 
-echo "Updating gh-pages branch"
+echo "Updating master branch"
 cd public && git add --all && git commit -m "Update"
+
+echo "Ready to push!"
 
