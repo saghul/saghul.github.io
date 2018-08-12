@@ -1,4 +1,4 @@
-baseURL = "http://bettercallsaghul.com"
+baseURL = "https://bettercallsaghul.com"
 languageCode = "en"
 title = "Better Call Saghul"
 theme = "coder"
