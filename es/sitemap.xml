@@ -3,47 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://bettercallsaghul.com/es/</loc>
+    <loc>https://bettercallsaghul.com/es/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://bettercallsaghul.com/"
+                href="https://bettercallsaghul.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://bettercallsaghul.com/es/"
+                href="https://bettercallsaghul.com/es/"
                 />
   </url>
   
   <url>
-    <loc>http://bettercallsaghul.com/es/categories/</loc>
+    <loc>https://bettercallsaghul.com/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://bettercallsaghul.com/categories/"
+                href="https://bettercallsaghul.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://bettercallsaghul.com/es/categories/"
+                href="https://bettercallsaghul.com/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://bettercallsaghul.com/es/tags/</loc>
+    <loc>https://bettercallsaghul.com/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://bettercallsaghul.com/tags/"
+                href="https://bettercallsaghul.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://bettercallsaghul.com/es/tags/"
+                href="https://bettercallsaghul.com/es/tags/"
                 />
   </url>
   

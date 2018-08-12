@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Better Call Saghul</title>
-    <link>http://bettercallsaghul.com/</link>
+    <link>https://bettercallsaghul.com/</link>
     <description>Recent content on Better Call Saghul</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     
-	<atom:link href="http://bettercallsaghul.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bettercallsaghul.com/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
