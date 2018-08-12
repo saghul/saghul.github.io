@@ -30,11 +30,6 @@ theme = "coder"
             weight = 1
             url  = "http://code.saghul.net"
 
-        [[languages.en.menu.main]]
-            name = "About"
-            weight = 2
-            url = "/about/"
-
     [languages.es]
         languagename = "ES"
 
@@ -49,11 +44,6 @@ theme = "coder"
             name = "Blog"
             weight = 1
             url  = "http://saghul.net"
-
-        [[languages.es.menu.main]]
-            name = "Acerca de"
-            weight = 2
-            url = "/es/about/"
 
 # Social links
 [[params.social]]
