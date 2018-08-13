@@ -30,6 +30,11 @@ theme = "coder"
             weight = 1
             url  = "http://code.saghul.net"
 
+        [[languages.en.menu.main]]
+            name = "CV"
+            weight = 2
+            url  = "saghul-cv-en.pdf"
+
     [languages.es]
         languagename = "ES"
 
