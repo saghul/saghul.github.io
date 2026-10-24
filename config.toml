@@ -1,5 +1,5 @@
 baseURL = "https://bettercallsaghul.com"
-languageCode = "en"
+locale = "en"
 title = "Better Call Saghul"
 theme = "coder"
 
@@ -16,7 +16,7 @@ theme = "coder"
 
 [languages]
     [languages.en]
-        languagename = "EN"
+        label = "EN"
 
         [languages.en.params]
             author = "Saúl Ibarra Corretgé"
@@ -31,7 +31,7 @@ theme = "coder"
             url  = "http://code.saghul.net"
 
     [languages.es]
-        languagename = "ES"
+        label = "ES"
 
         [languages.es.params]
             author = "Saúl Ibarra Corretgé"
