@@ -30,11 +30,6 @@ theme = "coder"
             weight = 1
             url  = "http://code.saghul.net"
 
-        [[languages.en.menu.main]]
-            name = "CV"
-            weight = 2
-            url  = "saghul-cv-en.pdf"
-
     [languages.es]
         languagename = "ES"
 
@@ -43,24 +38,23 @@ theme = "coder"
             info = "Experto en COmunicaiones en Tiempo Real"
             description = "Web personal de saghul."
 
-        [languages.es.menu]
-
-        [[languages.es.menu.main]]
-            name = "Blog"
-            weight = 1
-            url  = "http://saghul.net"
-
 # Social links
 [[params.social]]
     name = "GitHub"
     weight = 1
     url = "https://github.com/saghul"
 [[params.social]]
-    name = "Twitter"
+    name = "X"
     weight = 2
-    url = "https://twitter.com/saghul"
+    url = "https://x.com/saghul"
 [[params.social]]
     name = "LinkedIn"
     weight = 3
     url = "https://www.linkedin.com/in/saghul/"
+[[params.social]]
+    name = "Fediverse"
+    weight = 4
+    url = "https://fedi.saghul.net/@s"
+
+
 
